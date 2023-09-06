@@ -37,7 +37,11 @@
       display: flex;
       gap: 8.5px;
     }
+
     .phoneContact {
+      a {
+        color: #000000;
+      }
       display: flex;
       gap: 8.5px;
       margin-left: auto;
@@ -47,6 +51,39 @@
       font-weight: 500;
       line-height: normal;
     }
-    
+    .iconPlusik {
+      width: 18px;
+      height: 18px;
+      border: 1px;
+      color: #5d6c7b;
+    }
+  }
+}
+.podtop {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  top: 144px;
+  flex-shrink: 0;
+  background: #f4f7fb;
+  .podtopInner {
+    display: flex;
+    width: Fixed (776px);
+    height: Hug (20px);
+    top: 154px;
+    left: 165px;
+    justify-content: space-between;
+  }
+  .linksMenu {
+    a {
+      color: #282739;
+    }
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 49.6px;
   }
 }

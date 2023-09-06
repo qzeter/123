@@ -31,6 +31,24 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={s.podtop}>
+        <div className={s.podtopInner}>
+          <div className={s.linksMenu}>
+            <a href="">О магазине</a>
+            <a href="">Доставка и оплата</a>
+            <a href="">
+              <img src="images/installment.svg" alt="" />
+            </a>
+            <a href="">Тест-драйв</a>
+            <a href="">Блог</a>
+            <a href="">Контакты</a>
+            <a href="">Акции</a>
+            <a href="">
+              <img src="images/percent.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }
