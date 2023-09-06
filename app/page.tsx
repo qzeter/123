@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className={s.iconPlusik}>
             <a href="">
-              <img src="images/plus.svg" alt="" />
+              <img src="images/plus.svg" alt="+" />
             </a>
           </div>
         </div>
