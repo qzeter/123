@@ -23,11 +23,11 @@ export default function Home() {
           </div>
           <div className={s.phoneContact}>
             <a href="">+7 (800) 505-54-61</a>
-          </div>
-          <div className={s.iconPlusik}>
-            <a href="">
-              <img src="images/plus.svg" alt="+" />
-            </a>
+            <div className={s.iconPlusik}>
+              <a href="">
+                <img src="images/pluss.svg" alt="+" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

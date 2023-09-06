@@ -39,6 +39,7 @@
     }
     .phoneContact {
       display: flex;
+      gap: 8.5px;
       margin-left: auto;
       color: var(--Black, #282739);
       font-size: 12px;
@@ -46,10 +47,6 @@
       font-weight: 500;
       line-height: normal;
     }
-    .iconPlusik {
-      display: flex;
-      width: 18px;
-      height: 18px;
-    }
+    
   }
 }
