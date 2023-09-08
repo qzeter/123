@@ -1,6 +1,7 @@
 .title {
   font-size: 64px;
 }
+// самый верх с контактами
 .top {
   width: 100%;
   height: 39px;
@@ -59,24 +60,47 @@
     }
   }
 }
-.podtop {
+// верх середина со строкой поиска
+.middleTop {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  height: 105px;
+  background-color: #fff;
+  flex-shrink: 0;
+  .middleTopInner {
+    display: flex;
+    margin: auto;
+    h1 {
+      width: 116px;
+      height: 43px;
+      top: 67px;
+      left: 165px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 43px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+// верхние ссылки под строкой поиска
+.bottomTop {
   display: flex;
   width: 100%;
   height: 40px;
   top: 144px;
   flex-shrink: 0;
   background: #f4f7fb;
-  .podtopInner {
+  .bottomTopInner {
     display: flex;
-    width: Fixed (776px);
-    height: Hug (20px);
-    top: 154px;
-    left: 165px;
-    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
   }
   .linksMenu {
     a {
       color: #282739;
+      text-decoration: none;
     }
     display: flex;
     font-size: 14px;
@@ -85,5 +109,13 @@
     letter-spacing: 0em;
     text-align: left;
     gap: 49.6px;
+  }
+  .linksMenuShipping {
+    display: flex;
+    gap: 8px;
+  }
+  .linksMenuSale {
+    display: flex;
+    gap: 8px;
   }
 }
